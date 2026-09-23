@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rebrain logo">
+  <rect x="6" y="6" width="52" height="52" rx="6" fill="#FFFFFF"/>
+  <rect x="6.5" y="6.5" width="51" height="51" rx="5.5" stroke="#08090C" stroke-width="1"/>
+  <path d="M16 22H40" stroke="#08090C" stroke-width="3" stroke-linecap="square"/>
+  <path d="M16 32H48" stroke="#08090C" stroke-width="3" stroke-linecap="square"/>
+  <path d="M16 42H33" stroke="#08090C" stroke-width="3" stroke-linecap="square"/>
+  <path d="M42 17L50 25L38 37L30 39L32 31L42 17Z" fill="#2457FF"/>
+  <path d="M40 19L48 27" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="47" cy="45" r="7" fill="#00A870"/>
+</svg>

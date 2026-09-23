@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/codebase-map",
+      "destination": "https://xoren-codebase-map.vercel.app/codebase-map"
+    },
+    {
+      "source": "/codebase-map/:path*",
+      "destination": "https://xoren-codebase-map.vercel.app/codebase-map/:path*"
+    },
+    {
+      "source": "/rebrain",
+      "destination": "https://xoren-rebrain.vercel.app/rebrain"
+    },
+    {
+      "source": "/rebrain/:path*",
+      "destination": "https://xoren-rebrain.vercel.app/rebrain/:path*"
+    }
+  ]
+}
