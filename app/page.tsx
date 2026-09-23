@@ -1,7 +1,7 @@
 const startups = [
   {
     name: "Codebase Map",
-    href: "/codebase-map",
+    href: "/codebase",
     status: "Public MVP",
     statusTone: "cyan",
     stage: "Code intelligence",

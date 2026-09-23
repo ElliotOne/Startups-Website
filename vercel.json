@@ -2,12 +2,12 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/codebase-map",
-      "destination": "https://xoren-codebase-map.vercel.app/codebase-map"
+      "source": "/codebase",
+      "destination": "https://codebase-map.vercel.app/codebase"
     },
     {
-      "source": "/codebase-map/:path*",
-      "destination": "https://xoren-codebase-map.vercel.app/codebase-map/:path*"
+      "source": "/codebase/:path*",
+      "destination": "https://codebase-map.vercel.app/codebase/:path*"
     },
     {
       "source": "/rebrain",

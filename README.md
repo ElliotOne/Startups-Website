@@ -6,7 +6,7 @@ The custom domain should be connected to this hub project only. Each startup sta
 
 ## Current paths
 
-- `/codebase-map` -> Codebase Map
+- `/codebase` -> Codebase Map
 - `/rebrain` -> Rebrain
 
 ## Vercel setup
@@ -19,7 +19,7 @@ The custom domain should be connected to this hub project only. Each startup sta
 Codebase Map:
 
 ```text
-app/codebase-map/page.tsx
+app/codebase/page.tsx
 ```
 
 Rebrain:
