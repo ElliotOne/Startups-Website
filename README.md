@@ -2,11 +2,11 @@
 
 This is the public hub for `https://startups.xoren.co.uk/`.
 
-The custom domain should be connected to this hub project only. Each startup stays deployed as its own Vercel project and is mounted under a path by `vercel.json` rewrites.
+The custom domain should be connected to this hub project only. Each startup stays deployed as its own Vercel project and is linked from a clean hub path by `vercel.json`.
 
 ## Current paths
 
-- `/codebase` -> Codebase Map
+- `/codebase` -> Codebase Map redirect
 - `/rebrain` -> Rebrain
 
 ## Vercel setup

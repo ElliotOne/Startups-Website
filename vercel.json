@@ -1,14 +1,18 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
+  "redirects": [
     {
       "source": "/codebase",
-      "destination": "https://codebase-map.vercel.app/codebase"
+      "destination": "https://codebase-map.vercel.app/codebase",
+      "permanent": false
     },
     {
       "source": "/codebase/:path*",
-      "destination": "https://codebase-map.vercel.app/codebase/:path*"
-    },
+      "destination": "https://codebase-map.vercel.app/codebase/:path*",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
     {
       "source": "/rebrain",
       "destination": "https://xoren-rebrain.vercel.app/rebrain"
