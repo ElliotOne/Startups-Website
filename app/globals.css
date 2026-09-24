@@ -246,7 +246,6 @@ p {
 }
 
 .system-list span {
-  border-top: 1px solid var(--line);
   padding: 12px 0;
   color: var(--ink-soft);
   font-size: 0.82rem;
@@ -254,7 +253,7 @@ p {
   line-height: 1.35;
 }
 
-.system-list span:last-child {
+.system-list span:not(:last-child) {
   border-bottom: 1px solid var(--line);
 }
 
