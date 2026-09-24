@@ -83,7 +83,7 @@ export default function Home() {
         <section className="portfolio-board">
           <header className="board-topbar">
             <div>
-              <h2>Current builds</h2>
+              <h2>Current products</h2>
             </div>
             <div className="board-status" aria-label="Portfolio owner">
               <span />
