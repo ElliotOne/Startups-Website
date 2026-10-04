@@ -27,10 +27,10 @@ When mounted under the hub, Codebase Map must be built with `basePath: "/codebas
 Rebrain:
 
 ```text
-app/rebrain/page.tsx
+app/page.tsx
 ```
 
-Rebrain is mounted at `/rebrain` and rewrites to `https://rebrain-taupe.vercel.app/rebrain`.
+When mounted under the hub, Rebrain must be built with `basePath: "/rebrain"` so CSS, JS, fonts, public assets, icons, and API calls resolve under `https://startups.xoren.co.uk/rebrain/...`. The hub rewrites `/rebrain` to `https://rebrain-taupe.vercel.app/rebrain`.
 
 ## Commands
 
