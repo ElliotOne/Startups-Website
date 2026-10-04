@@ -30,6 +30,8 @@ Rebrain:
 app/rebrain/page.tsx
 ```
 
+Rebrain is mounted at `/rebrain` and rewrites to `https://rebrain-taupe.vercel.app/rebrain`.
+
 ## Commands
 
 ```bash

@@ -1,4 +1,16 @@
-const startups = [
+type Startup = {
+  name: string;
+  href: string;
+  status: string;
+  statusTone: string;
+  stage: string;
+  logo: string;
+  summary: string;
+  metrics: string[][];
+  readouts: string[];
+  comingSoon?: boolean;
+};
+const startups: Startup[] = [
   {
     name: "Codebase Map",
     href: "/codebase",
@@ -17,9 +29,8 @@ const startups = [
   {
     name: "Rebrain",
     href: "/rebrain",
-    status: "Coming soon",
+    status: "Public MVP",
     statusTone: "green",
-    comingSoon: true,
     stage: "Creator intelligence",
     logo: "/rebrain-mark.svg",
     summary: "Rank source-backed post ideas from public research signals.",

@@ -11,11 +11,11 @@
     },
     {
       "source": "/rebrain",
-      "destination": "https://xoren-rebrain.vercel.app/rebrain"
+      "destination": "https://rebrain-taupe.vercel.app/rebrain"
     },
     {
       "source": "/rebrain/:path*",
-      "destination": "https://xoren-rebrain.vercel.app/rebrain/:path*"
+      "destination": "https://rebrain-taupe.vercel.app/rebrain/:path*"
     }
   ]
 }
